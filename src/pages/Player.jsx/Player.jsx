@@ -49,7 +49,7 @@ const Player = () => {
 				<iframe
 					width="90%"
 					height="90%"
-					src={`https://youtube.com/embed/${apiData.key}`}
+					src={`https://youtube.com/embed/${apiData.key}?autoplay=1`}
 					title="trailer"
 					frameBorder="0"
 					allowFullScreen
