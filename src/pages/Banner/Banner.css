@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
+.banner {
+    width: 100%;
+    color: white;
+    padding-bottom: 10vh;
+    mask-image: linear-gradient(to top, transparent, black 30%);
+    -webkit-mask-image: linear-gradient(to top, transparent, black 30%);
+    object-fit: contain;
+}
+
+.banner__contents {
+    margin-left: 100px;
+    padding-top: 250px;
+}
+
+.banner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner__description {
+    max-width: 360px;
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.hero-btns .btn {
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btns .dark-btn {
+    color: #fff;
+    background: #6d6d6d;
+}
+
+.hero-btns .btn:hover {
+    background: #ffffffbf;
+}
+
+.hero-btns .dark-btn:hover {
+    background: #6d6d6e66;
+}
+
+@media (maxwidth:500px) {
+    .hero-btns .btn {
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+}
