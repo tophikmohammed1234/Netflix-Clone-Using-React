@@ -19,7 +19,6 @@
 
 .row_poster {
     width: 100px;
-    /* Adjust as needed */
     object-fit: contain;
     transition: transform 0.3s;
     margin-right: 10px;
