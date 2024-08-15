@@ -7,6 +7,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 
 const App = () => {
 	const navigate = useNavigate();
@@ -29,6 +30,7 @@ const App = () => {
 				<Route path="/" element={<Home />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/player/:id" element={<Player />} />
+				<Route path="/privacy-policy" element={<PrivacyPolicy />} />
 			</Routes>
 		</>
 	);

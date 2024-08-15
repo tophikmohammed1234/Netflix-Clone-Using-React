@@ -45,7 +45,14 @@ const Footer = () => {
 					<div>
 						<ul>
 							<li>Media Center</li>
-							<li>Privacy</li>
+							<li>
+								<Link
+									to="/privacy-policy"
+									style={{ color: "grey", textDecoration: "none" }}
+								>
+									Privacy Policy
+								</Link>
+							</li>
 							<li>Contact Us</li>
 						</ul>
 					</div>
